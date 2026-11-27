@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Beytullah Ayvat — CV & AI Assistant</title>
+  <meta name="description" content="Curriculum Vitae and interactive AI assistant of Beytullah Ayvat, Management Information Systems student at Boğaziçi University." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Instrument+Serif:ital@0;1&family=Plus+Jakarta+Sans:wght@400;500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="/styles.css" />
+</head>
+<body>
+  <header class="topbar no-print">
+    <div class="container topbar-inner">
+      <a href="#top" class="brand">
+        <span class="brand-mark">BA</span>
+        <span class="brand-name">Beytullah Ayvat</span>
+      </a>
+      <nav class="nav-links" aria-label="Main navigation">
+        <a href="#about" data-i18n="navAbout">About</a>
+        <a href="#education" data-i18n="navEducation">Education</a>
+        <a href="#skills" data-i18n="navSkills">Skills</a>
+        <a href="#projects" data-i18n="navProjects">Projects</a>
+        <a href="#interests" data-i18n="navInterests">Interests</a>
+      </nav>
+      <div class="topbar-actions">
+        <button id="langToggle" class="btn-ghost" type="button" aria-label="Switch language">TR</button>
+        <button id="themeToggle" class="btn-ghost" type="button" aria-label="Toggle color theme">◐</button>
+        <button id="printBtn" class="btn-outline" type="button" data-i18n="printCv">Print / PDF</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="top" class="container page-layout">
+    <!-- Left / Main CV Column -->
+    <div class="cv-column">
+      <!-- Hero -->
+      <section class="hero card reveal">
+        <div class="hero-badge">
+          <span class="status-dot"></span>
+          <span data-i18n="heroBadge">Boğaziçi University · MIS '24</span>
+        </div>
+        <h1 class="hero-title">Beytullah Ayvat</h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">
+          Management Information Systems Undergraduate — Bridging Python, Systems Thinking, and the Arts.
+        </p>
+        <p class="hero-summary" id="about" data-i18n="heroSummary">
+          I am an undergraduate Management Information Systems (MIS) student at Boğaziçi University (2024 entry). I combine analytical problem solving and Python programming with a lifelong passion for literature, music, and visual arts to craft thoughtful, human-centered digital solutions.
+        </p>
+        <div class="hero-meta">
+          <span class="meta-pill">📍 <span data-i18n="location">Istanbul, Turkey</span></span>
+          <span class="meta-pill">🎓 <span data-i18n="degreeShort">B.S. Management Information Systems</span></span>
+          <span class="meta-pill">🌐 <span data-i18n="englishShort">English B2+ · Turkish Native</span></span>
+        </div>
+        <div class="hero-cta no-print">
+          <button id="openChatHero" class="btn-primary" type="button">
+            <span>✦</span>
+            <span data-i18n="askAiBtn">Ask My AI Assistant</span>
+          </button>
+          <a href="#contact" class="btn-secondary" data-i18n="contactBtn">Contact & Availability</a>
+        </div>
+      </section>
+
+      <!-- Education -->
+      <section id="education" class="card section reveal">
+        <div class="section-header">
+          <span class="section-kicker">01</span>
+          <h2 data-i18n="secEducation">Education</h2>
+        </div>
+        <div class="timeline">
+          <article class="timeline-item">
+            <div class="timeline-top">
+              <div>
+                <h3 data-i18n="eduSchool">Boğaziçi University</h3>
+                <p class="role-title" data-i18n="eduDegree">B.S. in Management Information Systems (YBS)</p>
+              </div>
+              <span class="date-badge" data-i18n="eduDate">2024 – Present</span>
+            </div>
+            <ul class="bullet-list">
+              <li data-i18n="eduItem1">Interdisciplinary training spanning software development, information systems, data analytics, and management strategy.</li>
+              <li data-i18n="eduItem2">Building strong foundations in Python programming, algorithmic problem solving, and modern AI-assisted workflows.</li>
+              <li data-i18n="eduItem3">English-medium academic environment fostering research, structured writing, and collaborative teamwork.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <!-- Skills & Languages -->
+      <section id="skills" class="card section reveal">
+        <div class="section-header">
+          <span class="section-kicker">02</span>
+          <h2 data-i18n="secSkills">Skills & Languages</h2>
+        </div>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 data-i18n="skillTechTitle">Technical Skills</h3>
+            <div class="tag-list">
+              <span class="tag tag-accent">Python</span>
+              <span class="tag">HTML / CSS</span>
+              <span class="tag">Git & GitHub</span>
+              <span class="tag" data-i18n="tagAiTools">AI Workflows & Prompting</span>
+              <span class="tag" data-i18n="tagMis">Information Systems</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3 data-i18n="skillCoreTitle">Analytical & Core Competencies</h3>
+            <div class="tag-list">
+              <span class="tag" data-i18n="tagProblem">Problem Solving</span>
+              <span class="tag" data-i18n="tagAnalytical">Analytical Thinking</span>
+              <span class="tag" data-i18n="tagResearch">Research & Writing</span>
+              <span class="tag" data-i18n="tagDesignSense">Visual & Design Sense</span>
+              <span class="tag" data-i18n="tagTeamwork">Cross-Disciplinary Collaboration</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="languages-bar">
+          <h3 data-i18n="languagesTitle">Languages</h3>
+          <div class="lang-cards">
+            <div class="lang-card">
+              <div class="lang-row">
+                <strong data-i18n="langTr">Turkish</strong>
+                <span class="lang-level" data-i18n="langTrLevel">Native</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" style="width: 100%"></div></div>
+            </div>
+            <div class="lang-card">
+              <div class="lang-row">
+                <strong data-i18n="langEn">English</strong>
+                <span class="lang-level" data-i18n="langEnLevel">B2+ (Upper-Intermediate)</span>
+              </div>
+              <div class="progress-track"><div class="progress-fill" style="width: 82%"></div></div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Projects -->
+      <section id="projects" class="card section reveal">
+        <div class="section-header">
+          <span class="section-kicker">03</span>
+          <h2 data-i18n="secProjects">Selected Projects</h2>
+        </div>
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-head">
+              <h3 data-i18n="proj1Title">Interactive CV & AI Chatbot Web App</h3>
+              <span class="date-badge">2026</span>
+            </div>
+            <p data-i18n="proj1Desc">
+              Full-stack personal resume platform with a lightweight Node.js/Express backend proxy and an integrated bilingual AI chatbot deployed on Render.
+            </p>
+            <div class="tag-list">
+              <span class="tag">Node.js</span>
+              <span class="tag">Express</span>
+              <span class="tag">LLM API</span>
+              <span class="tag">Render</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-head">
+              <h3 data-i18n="proj2Title">Python Algorithms & Automation Portfolio</h3>
+              <span class="date-badge">2024 – 2026</span>
+            </div>
+            <p data-i18n="proj2Desc">
+              Collection of modular Python scripts focused on algorithmic problem solving, structured data manipulation, and academic MIS exercises.
+            </p>
+            <div class="tag-list">
+              <span class="tag tag-accent">Python</span>
+              <span class="tag" data-i18n="tagAlgo">Algorithms</span>
+              <span class="tag" data-i18n="tagData">Data Processing</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <!-- Interests -->
+      <section id="interests" class="card section reveal">
+        <div class="section-header">
+          <span class="section-kicker">04</span>
+          <h2 data-i18n="secInterests">Interests & Creative Pursuits</h2>
+        </div>
+        <div class="interests-grid">
+          <article class="interest-card">
+            <div class="interest-icon">📖</div>
+            <h3 data-i18n="intLitTitle">Literature</h3>
+            <p data-i18n="intLitDesc">Classic and contemporary novels, essays, and storytelling—sharpening critical reading and clear communication.</p>
+          </article>
+          <article class="interest-card">
+            <div class="interest-icon">🎵</div>
+            <h3 data-i18n="intMusicTitle">Music</h3>
+            <p data-i18n="intMusicDesc">Exploring diverse musical genres, rhythm, and composition aesthetics as a continuous source of focus and creativity.</p>
+          </article>
+          <article class="interest-card">
+            <div class="interest-icon">🎨</div>
+            <h3 data-i18n="intArtTitle">Visual Arts</h3>
+            <p data-i18n="intArtDesc">Engaging with visual composition, painting, cinema, and contemporary art—bringing aesthetic sensibility into digital work.</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- Contact -->
+      <section id="contact" class="card section reveal">
+        <div class="section-header">
+          <span class="section-kicker">05</span>
+          <h2 data-i18n="secContact">Contact & Availability</h2>
+        </div>
+        <p class="contact-lead" data-i18n="contactLead">
+          Open to undergraduate internships, student research collaborations, and creative technology projects in Istanbul or remote.
+        </p>
+        <div class="contact-grid">
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="contactLocLabel">Location</span>
+            <strong data-i18n="location">Istanbul, Turkey</strong>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="contactUniLabel">University</span>
+            <strong data-i18n="eduSchool">Boğaziçi University</strong>
+          </div>
+          <div class="contact-item">
+            <span class="contact-label" data-i18n="contactStatusLabel">Status</span>
+            <strong data-i18n="contactStatusVal">Available for Internships & Projects</strong>
+          </div>
+        </div>
+      </section>
+    </div>
+
+    <!-- Right Sticky AI Chatbot Column -->
+    <aside class="chat-column no-print" aria-label="AI CV Assistant">
+      <div class="chat-panel card" id="chatPanel">
+        <div class="chat-header">
+          <div class="chat-title-wrap">
+            <div class="ai-avatar">✦</div>
+            <div>
+              <h2 class="chat-title" data-i18n="chatTitle">Ask AI About Beytullah</h2>
+              <p class="chat-subtitle">
+                <span class="online-dot"></span>
+                <span data-i18n="chatSubtitle">Online · Replies in EN & TR</span>
+              </p>
+            </div>
+          </div>
+          <button id="clearChat" class="icon-btn" type="button" title="Reset conversation" aria-label="Reset conversation">↺</button>
+        </div>
+
+        <div id="chatMessages" class="chat-messages" role="log" aria-live="polite"></div>
+
+        <div class="quick-prompts" id="quickPrompts">
+          <button type="button" class="chip" data-prompt-en="Tell me about Beytullah's education at Boğaziçi University." data-prompt-tr="Beytullah'ın Boğaziçi Üniversitesi eğitimi hakkında bilgi verir misin?" data-i18n="chip1">Education at Boğaziçi?</button>
+          <button type="button" class="chip" data-prompt-en="What programming and technical skills does Beytullah have?" data-prompt-tr="Beytullah'ın teknik ve yazılım yetenekleri neler?" data-i18n="chip2">Technical skills?</button>
+          <button type="button" class="chip" data-prompt-en="What are Beytullah's creative interests?" data-prompt-tr="Beytullah'ın sanatsal ve kültürel ilgi alanları neler?" data-i18n="chip3">Creative interests?</button>
+        </div>
+
+        <form id="chatForm" class="chat-form">
+          <input
+            id="chatInput"
+            type="text"
+            autocomplete="off"
+            maxlength="500"
+            placeholder="Ask about education, Python, interests..."
+            data-i18n-placeholder="chatPlaceholder"
+            required
+          />
+          <button id="chatSend" type="submit" class="send-btn" aria-label="Send message">
+            <span data-i18n="sendBtn">Send</span>
+          </button>
+        </form>
+      </div>
+    </aside>
+  </main>
+
+  <footer class="footer container no-print">
+    <p>© <span id="year"></span> Beytullah Ayvat · <span data-i18n="footerNote">Built with Node.js & AI Assistant · Hosted on Render</span></p>
+  </footer>
+
+  <!-- Mobile Floating Chat Button -->
+  <button id="mobileChatFab" class="mobile-fab no-print" type="button" aria-label="Open AI Assistant">
+    <span>✦</span>
+    <span data-i18n="fabLabel">Ask AI</span>
+  </button>
+
+  <script src="/app.js"></script>
+</body>
+</html>
