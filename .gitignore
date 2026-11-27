@@ -1,0 +1,20 @@
+# Secrets & API Keys (NEVER commit to GitHub)
+api-keys.txt
+.env
+.env.local
+.env.*.local
+
+# Dependencies & Build
+node_modules/
+__pycache__/
+*.pyc
+.venv/
+venv/
+dist/
+build/
+
+# OS & Editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
