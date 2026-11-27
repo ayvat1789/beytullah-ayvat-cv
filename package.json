@@ -1,0 +1,16 @@
+{
+  "name": "beytullah-ayvat-cv",
+  "version": "1.0.0",
+  "description": "Personal CV website with an integrated AI chatbot for Beytullah Ayvat (Bogazici University MIS)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
